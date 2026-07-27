@@ -1,7 +1,7 @@
 # 🚀 Ehsan Moattari · Portfolio
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ehsan-moattari)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emoatari)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ehsanmoattari)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:moattariehsan@gmail.com)
 
 ---
@@ -39,37 +39,37 @@ A fully functional jewelry e‑commerce store built with WordPress and WooCommer
 
 ---
 
-### 2. [Corporate Website](https://emoatari.github.io/corporate-website) — Practice Project
+### 2. [Corporate Website](https://ehsanmoattari.github.io/corporate-website) — Practice Project
 A 5‑page, fully responsive corporate website built with Bootstrap 5.
 
 - **Tech:** HTML5, CSS3, Bootstrap 5, JavaScript
 - **Challenges:** Implemented a dynamic portfolio filter and FAQ accordion.
-- 🔗 [Live Demo](https://emoatari.github.io/corporate-website) | [Source Code](https://github.com/emoatari/corporate-website)
+- 🔗 [Live Demo](https://ehsanmoattari.github.io/corporate-website) | [Source Code](https://github.com/ehsanmoattari/corporate-website)
 
 ---
 
-### 3. [Admin Dashboard](https://emoatari.github.io/modernshop-dashboard) — Practice Project
+### 3. [Admin Dashboard](https://ehsanmoattari.github.io/modernshop-dashboard) — Practice Project
 An interactive data dashboard with dynamic charts and a clean, modern layout.
 
 - **Tech:** JavaScript, Chart.js, Bootstrap, HTML5, CSS3
 - **Challenges:** Integrated real-time chart updates and responsive design.
-- 🔗 [Live Demo](https://emoatari.github.io/modernshop-dashboard) | [Source Code](https://github.com/emoatari/modernshop-dashboard)
+- 🔗 [Live Demo](https://ehsanmoattari.github.io/modernshop-dashboard) | [Source Code](https://github.com/ehsanmoattari/modernshop-dashboard)
 
 ---
 
 ## 📈 GitHub Stats
 
-![Ehsan's GitHub stats](https://github-readme-stats.vercel.app/api?username=emoatari&show_icons=true&theme=cobalt)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=emoatari&layout=compact&theme=cobalt)
+![Ehsan's GitHub stats](https://github-readme-stats.vercel.app/api?username=ehsanmoattari&show_icons=true&theme=cobalt)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ehsanmoattari&layout=compact&theme=cobalt)
 
 ---
 
 ## 📫 Let's Connect
 
 - 💼 [LinkedIn](https://linkedin.com/in/ehsan-moattari)
-- 🐙 [GitHub](https://github.com/emoatari)
+- 🐙 [GitHub](https://github.com/ehsanmoattari)
 - 📧 [moattariehsan@gmail.com](mailto:moattariehsan@gmail.com)
-- 🌐 [Portfolio](https://emoatari.github.io)
+- 🌐 [Portfolio](https://ehsanmoattari.github.io)
 
 ---
 
