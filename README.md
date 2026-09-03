@@ -69,7 +69,7 @@ An interactive data dashboard with dynamic charts and a clean, modern layout.
 - 💼 [LinkedIn](https://linkedin.com/in/ehsan-moattari)
 - 🐙 [GitHub](https://github.com/ehsanmoattari)
 - 📧 [moattariehsan@gmail.com](mailto:moattariehsan@gmail.com)
-- 🌐 [Portfolio](https://ehsanmoattari.github.io)
+- 🌐 [Portfolio](https://ehsanmoattari.github.io/portfolio/)
 
 ---
 
