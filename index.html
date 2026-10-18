@@ -2,557 +2,351 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Ehsan Moattari — Front-End Developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
             name="description"
-            content="Ehsan Moatari is a front-end developer with 2 years of experience building responsive, user-centric web applications using modern web technologies."
+            content="Ehsan Moattari builds practical web projects and is learning toward WordPress products and useful digital tools."
         />
-
-        <!-- Google Fonts (Inter) -->
+        <meta name="theme-color" content="#0b1120" />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:title"
+            content="Ehsan Moattari | Web Developer & Product Builder"
+        />
+        <meta
+            property="og:description"
+            content="Practical web projects, continuous learning, and a focus on useful digital products."
+        />
+        <meta
+            property="og:url"
+            content="https://ehsanmoattari.github.io/portfolio/"
+        />
+        <title>Ehsan Moattari | Web Developer & Product Builder</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
             rel="stylesheet"
         />
-
-        <!-- Font Awesome 6 (free icons) -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        />
-
-        <style>
-            /* ----- RESET & BASE ----- */
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-
-            body {
-                font-family:
-                    "Inter",
-                    -apple-system,
-                    system-ui,
-                    sans-serif;
-                background-color: #ffffff;
-                color: #1e293b;
-                line-height: 1.6;
-                padding: 2rem 1.5rem;
-            }
-
-            .container {
-                max-width: 960px;
-                margin: 0 auto;
-            }
-
-            /* ----- TYPOGRAPHY ----- */
-            h1,
-            h2,
-            h3 {
-                font-weight: 600;
-                letter-spacing: -0.02em;
-            }
-
-            h1 {
-                font-size: 2.8rem;
-                margin-bottom: 0.25rem;
-            }
-
-            h2 {
-                font-size: 1.8rem;
-                margin-top: 3.5rem;
-                margin-bottom: 1.5rem;
-                border-bottom: 1px solid #e9edf2;
-                padding-bottom: 0.5rem;
-            }
-
-            .subhead {
-                font-size: 1.2rem;
-                color: #475569;
-                margin-bottom: 1.5rem;
-            }
-
-            a {
-                color: #1e293b;
-                text-decoration: none;
-                font-weight: 500;
-                transition: color 0.2s ease;
-            }
-
-            a:hover {
-                color: #2563eb;
-            }
-
-            /* ----- HEADER / NAV ----- */
-            .site-header {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                margin-bottom: 4rem;
-                padding-bottom: 1rem;
-                border-bottom: 1px solid #e9edf2;
-            }
-
-            .logo {
-                font-size: 1.5rem;
-                font-weight: 600;
-                letter-spacing: -0.02em;
-            }
-
-            .nav-links {
-                display: flex;
-                gap: 2rem;
-                font-size: 0.95rem;
-            }
-
-            .nav-links a {
-                color: #475569;
-            }
-
-            .nav-links a:hover {
-                color: #1e293b;
-            }
-
-            /* ----- HERO / INTRO ----- */
-            .hero {
-                margin: 3rem 0 4rem 0;
-            }
-
-            .hero p {
-                font-size: 1.15rem;
-                max-width: 640px;
-                color: #334155;
-                margin: 0.75rem 0 1.5rem 0;
-            }
-
-            .hero-links {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 1.5rem 2rem;
-                margin-top: 1.5rem;
-            }
-
-            .hero-links a {
-                display: inline-flex;
-                align-items: center;
-                gap: 0.5rem;
-                color: #1e293b;
-                font-weight: 500;
-            }
-
-            .hero-links a i {
-                font-size: 1.2rem;
-                width: 1.5rem;
-                text-align: center;
-            }
-
-            /* ----- PROJECT CARDS (MINIMAL) ----- */
-            .project-grid {
-                display: grid;
-                grid-template-columns: 1fr;
-                gap: 2.5rem;
-                margin: 1.5rem 0 1rem 0;
-            }
-
-            .project-card {
-                display: flex;
-                flex-direction: column;
-                gap: 0.5rem;
-            }
-
-            .project-card img {
-                width: 100%;
-                height: auto;
-                border: 1px solid #e9edf2;
-                border-radius: 10px;
-                transition: border-color 0.2s ease;
-            }
-
-            .project-card img:hover {
-                border-color: #94a3b8;
-            }
-
-            .project-card h3 {
-                font-size: 1.25rem;
-                margin-top: 0.5rem;
-            }
-
-            .project-card .tags {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 0.5rem;
-                margin: 0.25rem 0 0.25rem 0;
-            }
-
-            .project-card .tags span {
-                background-color: #f1f5f9;
-                padding: 0.15rem 0.75rem;
-                border-radius: 20px;
-                font-size: 0.8rem;
-                color: #334155;
-            }
-
-            .project-links {
-                display: flex;
-                gap: 1.5rem;
-                font-size: 0.95rem;
-            }
-
-            .project-links a {
-                color: #2563eb;
-                font-weight: 500;
-            }
-
-            .project-links a:hover {
-                text-decoration: underline;
-            }
-
-            /* ----- ABOUT / BIO ----- */
-            .bio p {
-                max-width: 680px;
-                color: #334155;
-                margin-bottom: 1rem;
-            }
-
-            .bio strong {
-                color: #1e293b;
-            }
-
-            /* ----- SKILLS (clean list) ----- */
-            .skill-list {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 0.4rem 1.2rem;
-                list-style: none;
-                padding: 0;
-                margin: 0.5rem 0 0 0;
-            }
-
-            .skill-list li {
-                font-size: 0.95rem;
-                color: #334155;
-            }
-
-            .skill-list li::before {
-                content: "·";
-                font-weight: bold;
-                margin-right: 0.4rem;
-                color: #94a3b8;
-            }
-
-            .skill-list li:first-child::before {
-                content: "";
-                margin-right: 0;
-            }
-
-            /* ----- FOOTER ----- */
-            .footer {
-                margin-top: 4rem;
-                padding-top: 2rem;
-                border-top: 1px solid #e9edf2;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                font-size: 0.9rem;
-                color: #64748b;
-            }
-
-            .footer-social {
-                display: flex;
-                gap: 1.2rem;
-            }
-
-            .footer-social a {
-                color: #475569;
-                font-size: 1.1rem;
-            }
-
-            .footer-social a:hover {
-                color: #1e293b;
-            }
-
-            /* ----- RESPONSIVE ----- */
-            @media (min-width: 640px) {
-                .project-grid {
-                    grid-template-columns: 1fr 1fr;
-                }
-            }
-
-            @media (max-width: 600px) {
-                body {
-                    padding: 1.2rem;
-                }
-                h1 {
-                    font-size: 2.2rem;
-                }
-                .site-header {
-                    flex-direction: column;
-                    align-items: flex-start;
-                    gap: 0.8rem;
-                }
-                .nav-links {
-                    gap: 1.2rem;
-                    font-size: 0.9rem;
-                }
-                .hero-links {
-                    flex-direction: column;
-                    gap: 0.8rem;
-                }
-                .footer {
-                    flex-direction: column;
-                    gap: 1rem;
-                    align-items: flex-start;
-                }
-            }
-        </style>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/main.js" defer></script>
     </head>
-
     <body>
-        <div class="container">
-            <!-- ===== HEADER ===== -->
-            <header class="site-header">
-                <div class="logo">Ehsan Moattari</div>
-                <nav class="nav-links">
-                    <a href="#work">Work</a>
+        <header class="site-header">
+            <nav class="nav container" aria-label="Main navigation">
+                <a class="brand" href="#home" aria-label="Ehsan Moattari, home"
+                    >Ehsan Moattari<span></span></a
+                >
+                <div class="nav-links">
+                    <a href="#work">Projects</a>
                     <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
                     <a href="#contact">Contact</a>
-                </nav>
-            </header>
+                </div>
+            </nav>
+        </header>
 
-            <!-- ===== HERO ===== -->
-            <section class="hero">
-                <h1>Hi, I'm Ehsan.</h1>
-                <p class="subhead">
-                    Front-end developer with 1 year of hands-on experience, and
-                    14 years of professional work in team coordination &amp;
-                    office management.
+        <main>
+            <section class="hero container" id="home">
+                <span class="eyebrow">Web development · Product building</span>
+                <h1>
+                    Building useful things<br />for the
+                    <span class="gradient-text">web.</span>
+                </h1>
+                <p class="hero-copy">
+                    I'm Ehsan. I enjoy turning ideas into practical web projects
+                    and learning by building. My focus is strengthening my HTML,
+                    CSS, and JavaScript foundations, then moving deeper into PHP
+                    and WordPress development to create useful digital products.
                 </p>
-                <div class="hero-links">
-                    <a href="https://github.com/emoatari" target="_blank">
-                        <i class="fab fa-github"></i> GitHub
-                    </a>
-                    <a
-                        href="https://linkedin.com/in/ehsan-moattari"
-                        target="_blank"
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#work"
+                        >Explore my projects</a
                     >
-                        <i class="fab fa-linkedin-in"></i> LinkedIn
-                    </a>
-                    <a href="mailto:moattariehsan@gmail.com">
-                        <i class="far fa-envelope"></i> moattariehsan@gmail.com
-                    </a>
+                    <a class="button button-secondary" href="#contact"
+                        >Get in touch</a
+                    >
                 </div>
             </section>
 
-            <!-- ===== WORK / PORTFOLIO ===== -->
-            <section id="work">
-                <h2>Selected projects</h2>
+            <section class="section container" id="work">
+                <div class="section-heading">
+                    <div>
+                        <span class="section-kicker">Selected work</span>
+                        <h2>Projects I've built</h2>
+                        <p class="section-intro">
+                            Hands-on projects that help me practise front-end
+                            fundamentals and learn through building.
+                        </p>
+                    </div>
+                </div>
+
                 <div class="project-grid">
-                    <!-- PROJECT 1: STELLUX -->
-                    <div class="project-card">
-                        <img
-                            src="https://via.placeholder.com/600x360/e9edf2/1e293b?text=Stellux+Gallery"
-                            alt="Stellux Gallery screenshot"
-                        />
-                        <h3>Stellux Gallery</h3>
-                        <div class="tags">
-                            <span>WordPress</span>
-                            <span>WooCommerce</span>
-                            <span>Kadence theme</span>
-                        </div>
-                        <p
-                            style="
-                                color: #475569;
-                                font-size: 0.95rem;
-                                margin: 0.3rem 0 0.5rem 0;
-                            "
+                    <article class="project-card">
+                        <div
+                            class="project-visual visual-corporate"
+                            aria-hidden="true"
                         >
-                            Jewelry e‑commerce store with product filtering and
-                            secure checkout.
-                        </p>
-                        <div class="project-links">
-                            <a href="https://stelluxgallery.com" target="_blank"
-                                >Live site →</a
-                            >
-                            <a href="#" style="color: #64748b"
-                                >(private repo)</a
-                            >
+                            <div class="mock-window">
+                                <div class="mock-toolbar">
+                                    <span class="mock-dot"></span
+                                    ><span class="mock-dot"></span
+                                    ><span class="mock-dot"></span>
+                                </div>
+                                <div class="mock-content">
+                                    <div class="mock-label">
+                                        Business website
+                                    </div>
+                                    <div class="mock-title">
+                                        A clear digital presence.
+                                    </div>
+                                    <div class="mock-lines">
+                                        <div class="mock-line"></div>
+                                        <div class="mock-line short"></div>
+                                    </div>
+                                    <div class="mock-panels">
+                                        <div class="mock-panel"></div>
+                                        <div class="mock-panel"></div>
+                                        <div class="mock-panel"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                        <div class="project-body">
+                            <span class="project-type">Front-end project</span>
+                            <h3>Corporate Website</h3>
+                            <p>
+                                A responsive multi-page business website with
+                                interactive portfolio filtering and an FAQ
+                                accordion.
+                            </p>
+                            <div class="tags" aria-label="Project technologies">
+                                <span class="tag">HTML</span
+                                ><span class="tag">CSS</span
+                                ><span class="tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    class="text-link"
+                                    href="https://ehsanmoattari.github.io/corporate-website/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Live demo ↗</a
+                                >
+                                <a
+                                    class="text-link"
+                                    href="https://github.com/ehsanmoattari/corporate-website"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Source code ↗</a
+                                >
+                            </div>
+                        </div>
+                    </article>
 
-                    <!-- PROJECT 2: UTILE GADGETS -->
-                    <div class="project-card">
-                        <img
-                            src="https://via.placeholder.com/600x360/e9edf2/1e293b?text=Utile+Gadgets"
-                            alt="Utile Gadgets screenshot"
-                        />
-                        <h3>Utile Gadgets</h3>
-                        <div class="tags">
-                            <span>WordPress</span>
-                            <span>WooCommerce</span>
-                            <span>Bootstrap</span>
-                        </div>
-                        <p
-                            style="
-                                color: #475569;
-                                font-size: 0.95rem;
-                                margin: 0.3rem 0 0.5rem 0;
-                            "
+                    <article class="project-card">
+                        <div
+                            class="project-visual visual-dashboard"
+                            aria-hidden="true"
                         >
-                            Home appliances store with responsive design and
-                            custom product pages.
-                        </p>
-                        <div class="project-links">
-                            <a href="https://utilegadgets.com" target="_blank"
-                                >Live site →</a
-                            >
-                            <a href="#" style="color: #64748b"
-                                >(private repo)</a
-                            >
+                            <div class="mock-window">
+                                <div class="mock-toolbar">
+                                    <span class="mock-dot"></span
+                                    ><span class="mock-dot"></span
+                                    ><span class="mock-dot"></span>
+                                </div>
+                                <div class="mock-content">
+                                    <div class="mock-label">
+                                        Dashboard concept
+                                    </div>
+                                    <div class="mock-title">Overview</div>
+                                    <div class="mock-panels">
+                                        <div class="mock-panel"></div>
+                                        <div class="mock-panel"></div>
+                                        <div class="mock-panel"></div>
+                                    </div>
+                                    <div class="chart-preview">
+                                        <span class="chart-bar bar-1"></span
+                                        ><span class="chart-bar bar-2"></span
+                                        ><span class="chart-bar bar-3"></span
+                                        ><span class="chart-bar bar-4"></span
+                                        ><span class="chart-bar bar-5"></span
+                                        ><span class="chart-bar bar-6"></span
+                                        ><span class="chart-bar bar-7"></span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-
-                    <!-- PROJECT 3: CORPORATE WEBSITE (Bootstrap) -->
-                    <div class="project-card">
-                        <img
-                            src="https://via.placeholder.com/600x360/e9edf2/1e293b?text=Corporate+Website"
-                            alt="Corporate website screenshot"
-                        />
-                        <h3>Corporate Website (Bootstrap)</h3>
-                        <div class="tags">
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                            <span>Bootstrap 5</span>
+                        <div class="project-body">
+                            <span class="project-type">JavaScript project</span>
+                            <h3>ModernShop Dashboard</h3>
+                            <p>
+                                A dashboard practice project exploring
+                                responsive layouts and interactive data
+                                visualization with Chart.js.
+                            </p>
+                            <div class="tags" aria-label="Project technologies">
+                                <span class="tag">HTML</span
+                                ><span class="tag">CSS</span
+                                ><span class="tag">JavaScript</span
+                                ><span class="tag">Chart.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    class="text-link"
+                                    href="https://ehsanmoattari.github.io/modernshop-dashboard/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Live demo ↗</a
+                                >
+                                <a
+                                    class="text-link"
+                                    href="https://github.com/ehsanmoattari/modernshop-dashboard"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Source code ↗</a
+                                >
+                            </div>
                         </div>
-                        <p
-                            style="
-                                color: #475569;
-                                font-size: 0.95rem;
-                                margin: 0.3rem 0 0.5rem 0;
-                            "
-                        >
-                            Multi‑page business site – fully responsive, with
-                            portfolio filter and FAQ accordion.
-                        </p>
-                        <div class="project-links">
-                            <a
-                                href="https://emoatari.github.io/corporate-website"
-                                target="_blank"
-                                >Live demo →</a
-                            >
-                            <a
-                                href="https://github.com/emoatari/corporate-website"
-                                target="_blank"
-                                >Source code →</a
-                            >
-                        </div>
-                    </div>
-
-                    <!-- PROJECT 4: ADMIN DASHBOARD -->
-                    <div class="project-card">
-                        <img
-                            src="https://via.placeholder.com/600x360/e9edf2/1e293b?text=Admin+Dashboard"
-                            alt="Admin dashboard screenshot"
-                        />
-                        <h3>Admin Dashboard (Chart.js)</h3>
-                        <div class="tags">
-                            <span>JavaScript</span>
-                            <span>Chart.js</span>
-                            <span>Bootstrap</span>
-                        </div>
-                        <p
-                            style="
-                                color: #475569;
-                                font-size: 0.95rem;
-                                margin: 0.3rem 0 0.5rem 0;
-                            "
-                        >
-                            Data dashboard with interactive charts and clean
-                            layout for management views.
-                        </p>
-                        <div class="project-links">
-                            <a
-                                href="https://emoatari.github.io/modernshop-dashboard"
-                                target="_blank"
-                                >Live demo →</a
-                            >
-                            <a
-                                href="https://github.com/emoatari/modernshop-dashboard"
-                                target="_blank"
-                                >Source code →</a
-                            >
-                        </div>
-                    </div>
+                    </article>
                 </div>
             </section>
 
-            <!-- ===== ABOUT ===== -->
-            <section id="about">
-                <h2>About me</h2>
-                <div class="bio">
-                    <p>
-                        <strong>14 years of professional experience</strong> –
-                        before coding, I spent 7 years as Office Manager &amp;
-                        Team Coordinator at Tehran Regional Electric Company,
-                        and 6 years before that as a Call Center Operator. I
-                        learned how to manage teams, meet deadlines, and
-                        communicate clearly across departments.
-                    </p>
-                    <p>
-                        In 2023 I decided to fully commit to web development. In
-                        less than a year, I built several production‑ready
-                        websites using WordPress, Bootstrap, and TailwindCSS.
-                        I’m now deepening my knowledge of JavaScript, React, and
-                        Node.js to become a full‑stack developer.
-                    </p>
-                    <p>
-                        I'm currently looking for an
-                        <strong>internship or junior role</strong> where I can
-                        contribute, learn from experienced developers, and grow
-                        inside a professional team.
-                    </p>
+            <section class="section container" id="about">
+                <div class="section-heading">
+                    <div>
+                        <span class="section-kicker">About me</span>
+                        <h2>Learning by building</h2>
+                    </div>
                 </div>
-
-                <div style="margin-top: 1.8rem">
-                    <p style="font-weight: 600; margin-bottom: 0.3rem">
-                        Technologies I work with:
-                    </p>
-                    <ul class="skill-list">
-                        <li>HTML5 / CSS3</li>
-                        <li>Bootstrap 5</li>
-                        <li>TailwindCSS</li>
-                        <li>JavaScript (learning)</li>
-                        <li>WordPress / WooCommerce</li>
-                        <li>Git &amp; GitHub</li>
-                    </ul>
+                <div class="about-grid">
+                    <div class="about-copy">
+                        <p>
+                            I'm focused on learning web development through
+                            structured study and practical projects. I prefer
+                            understanding the fundamentals, applying them in
+                            code, and improving each project step by step.
+                        </p>
+                        <p>
+                            I've also built two WordPress e-commerce websites
+                            using ready-made themes and tools. Although those
+                            stores are no longer online, the experience
+                            introduced me to website setup, WooCommerce
+                            workflows, and the practical needs of online stores.
+                        </p>
+                        <p>
+                            My long-term goal is to build useful WordPress
+                            products and gradually explore SaaS opportunities.
+                        </p>
+                    </div>
+                    <aside class="focus-card">
+                        <h3>Current learning path</h3>
+                        <ul class="focus-list">
+                            <li>
+                                Strengthening HTML, CSS, and JavaScript
+                                fundamentals
+                            </li>
+                            <li>
+                                Building practical projects and improving code
+                                quality
+                            </li>
+                            <li>
+                                Next: learning PHP and WordPress development
+                            </li>
+                            <li>
+                                Long-term: useful products and independent
+                                business
+                            </li>
+                        </ul>
+                    </aside>
                 </div>
             </section>
 
-            <!-- ===== CONTACT / FOOTER ===== -->
-            <footer class="footer" id="contact">
-                <span>&copy; 2026 · Ehsan Moattari</span>
-                <div class="footer-social">
-                    <a
-                        href="https://github.com/emoatari"
-                        target="_blank"
-                        aria-label="GitHub"
-                        ><i class="fab fa-github"></i
-                    ></a>
-                    <a
-                        href="https://linkedin.com/in/ehsan-moattari"
-                        target="_blank"
-                        aria-label="LinkedIn"
-                        ><i class="fab fa-linkedin-in"></i
-                    ></a>
-                    <a href="mailto:moattariehsan@gmail.com" aria-label="Email"
-                        ><i class="far fa-envelope"></i
-                    ></a>
+            <section class="section container" id="skills">
+                <div class="section-heading">
+                    <div>
+                        <span class="section-kicker">Tools & technologies</span>
+                        <h2>My current toolkit</h2>
+                        <p class="section-intro">
+                            A practical snapshot of tools I've used and areas
+                            I'm continuing to learn.
+                        </p>
+                    </div>
                 </div>
-            </footer>
-        </div>
-        <!-- end container -->
+                <div class="skills">
+                    <article class="skill-group">
+                        <h3>Web fundamentals</h3>
+                        <p>
+                            HTML, CSS, JavaScript fundamentals, responsive
+                            layouts
+                        </p>
+                    </article>
+                    <article class="skill-group">
+                        <h3>Platforms & libraries</h3>
+                        <p>WordPress, WooCommerce, Kadence, Chart.js</p>
+                    </article>
+                    <article class="skill-group">
+                        <h3>Development tools</h3>
+                        <p>Git, GitHub, VS Code</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section container" id="experience">
+                <div class="section-heading">
+                    <div>
+                        <span class="section-kicker">Past projects</span>
+                        <h2>WordPress e-commerce experience</h2>
+                    </div>
+                </div>
+                <div class="history-note">
+                    <h3>Stellux Gallery & Utile Gadgets</h3>
+                    <p>
+                        I previously set up two e-commerce websites using
+                        WordPress, WooCommerce, and ready-made themes. Both
+                        stores are currently offline, so they are included here
+                        as past experience rather than active projects.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section container" id="contact">
+                <div class="contact-panel">
+                    <div>
+                        <span class="section-kicker">Let's connect</span>
+                        <h2>Have a useful idea in mind?</h2>
+                        <p>
+                            I'm interested in practical web development,
+                            WordPress products, and software that solves real
+                            problems.
+                        </p>
+                    </div>
+                    <a
+                        class="button button-primary"
+                        href="mailto:moattariehsan@gmail.com"
+                        >Email me ↗</a
+                    >
+                </div>
+            </section>
+        </main>
+
+        <footer class="container footer">
+            <span>© <span id="year">2026</span> Ehsan Moattari</span>
+            <nav class="footer-links" aria-label="Social links">
+                <a
+                    href="https://github.com/ehsanmoattari"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub</a
+                >
+                <a
+                    href="https://linkedin.com/in/ehsan-moattari"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >LinkedIn</a
+                >
+                <a href="mailto:moattariehsan@gmail.com">Email</a>
+            </nav>
+        </footer>
     </body>
 </html>
