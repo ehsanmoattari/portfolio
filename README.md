@@ -30,16 +30,7 @@ I'm a Front-End Developer with **1 year of hands-on experience** and a **14-year
 
 ## 📂 Featured Projects
 
-### 1. [Stellux Gallery](https://stelluxgallery.com) — Live E‑Commerce Store
-A fully functional jewelry e‑commerce store built with WordPress and WooCommerce.
-
-- **Tech:** WordPress, WooCommerce, Custom Theme, PHP
-- **Challenges:** Optimized product filtering and secure checkout.
-- 🔗 [Live Site](https://stelluxgallery.com) | Repository *(private)*
-
----
-
-### 2. [Corporate Website](https://ehsanmoattari.github.io/corporate-website) — Practice Project
+### 1. [Corporate Website](https://ehsanmoattari.github.io/corporate-website) — Practice Project
 A 5‑page, fully responsive corporate website built with Bootstrap 5.
 
 - **Tech:** HTML5, CSS3, Bootstrap 5, JavaScript
@@ -48,7 +39,7 @@ A 5‑page, fully responsive corporate website built with Bootstrap 5.
 
 ---
 
-### 3. [Admin Dashboard](https://ehsanmoattari.github.io/modernshop-dashboard) — Practice Project
+### 2. [Admin Dashboard](https://ehsanmoattari.github.io/modernshop-dashboard) — Practice Project
 An interactive data dashboard with dynamic charts and a clean, modern layout.
 
 - **Tech:** JavaScript, Chart.js, Bootstrap, HTML5, CSS3
