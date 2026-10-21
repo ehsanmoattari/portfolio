@@ -1,67 +1,61 @@
-# 🚀 Ehsan Moattari · Portfolio
+# Ehsan Moattari · Portfolio
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ehsan-moattari)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ehsanmoattari)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:moattariehsan@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:moattariehsan@gmail.com)
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-I'm a Front-End Developer with **1 year of hands-on experience** and a **14-year professional background** in team coordination and office management. My journey started in the power industry, where I managed teams and coordinated complex projects. Now, I combine that business acumen with my passion for technology to build clean, efficient, and user-friendly web solutions.
+I'm transitioning into web development with a focus on building practical, user-friendly products that solve real problems. I’m strengthening my front-end foundations through hands-on projects and working toward building useful WordPress products and, eventually, SaaS tools.
 
-- 🔭 I'm currently deepening my **JavaScript** and working toward **Full-Stack** development.
-- 🌱 I'm actively looking for an **internship or junior role** in a professional development team.
-- 💬 I enjoy discussing **React, Node.js, web architecture**, and emerging tech like AI and automation.
-- ⚡ Fun fact: I love learning new technologies and solving real-world problems.
+My previous experience includes building WordPress and WooCommerce websites. I’m now focusing on improving my programming skills, writing clearer code, and developing projects that demonstrate what I can do.
 
----
+## Current Focus
 
-## 🛠️ Technical Skills
+- Practicing HTML, CSS, and JavaScript through real projects
+- Improving responsive layouts, accessibility, and maintainable front-end code
+- Learning Git and GitHub workflows
+- Preparing to learn PHP and WordPress plugin development
+
+## Technologies & Tools
 
 | Category | Technologies |
 | :--- | :--- |
-| **Front-End** | HTML5, CSS3, Bootstrap 5, TailwindCSS |
-| **CMS** | WordPress, WooCommerce (Custom Theming, Speed Optimization) |
+| **Current Foundations** | HTML5, CSS3, JavaScript |
+| **CMS Experience** | WordPress, WooCommerce, Kadence |
 | **Tools** | Git, GitHub, VS Code |
-| **Currently Learning** | JavaScript (Advanced), React, Node.js, Next.js, PostgreSQL |
+| **Next Learning Goals** | PHP, WordPress plugin development, MySQL |
 
----
-
-## 📂 Featured Projects
+## Featured Projects
 
 ### 1. [Corporate Website](https://ehsanmoattari.github.io/corporate-website) — Practice Project
-A 5‑page, fully responsive corporate website built with Bootstrap 5.
 
-- **Tech:** HTML5, CSS3, Bootstrap 5, JavaScript
-- **Challenges:** Implemented a dynamic portfolio filter and FAQ accordion.
-- 🔗 [Live Demo](https://ehsanmoattari.github.io/corporate-website) | [Source Code](https://github.com/ehsanmoattari/corporate-website)
+A responsive multi-page website for a fictional technology company, built to practice page structure, responsive layouts, and interactive front-end features.
 
----
+- **Technologies:** HTML5, CSS3, Bootstrap 5, JavaScript
+- **Highlights:** Portfolio filtering, project detail modal, FAQ accordion, and client-side contact-form validation
+- **Note:** The contact form currently validates input in the browser; it does not send messages to a server.
+- **Links:** [Live Demo](https://ehsanmoattari.github.io/corporate-website) · [Source Code](https://github.com/ehsanmoattari/corporate-website)
 
-### 2. [Admin Dashboard](https://ehsanmoattari.github.io/modernshop-dashboard) — Practice Project
-An interactive data dashboard with dynamic charts and a clean, modern layout.
+### 2. [ModernShop Admin Dashboard](https://ehsanmoattari.github.io/modernshop-dashboard) — Practice Project
 
-- **Tech:** JavaScript, Chart.js, Bootstrap, HTML5, CSS3
-- **Challenges:** Integrated real-time chart updates and responsive design.
-- 🔗 [Live Demo](https://ehsanmoattari.github.io/modernshop-dashboard) | [Source Code](https://github.com/ehsanmoattari/modernshop-dashboard)
+An interactive e-commerce admin dashboard concept focused on presenting data and common dashboard interactions.
 
----
-
-## 📈 GitHub Stats
-
-![Ehsan's GitHub stats](https://github-readme-stats.vercel.app/api?username=ehsanmoattari&show_icons=true&theme=cobalt)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ehsanmoattari&layout=compact&theme=cobalt)
+- **Technologies:** HTML5, CSS3, Bootstrap, JavaScript, Chart.js
+- **Highlights:** Responsive dashboard layout, data visualization, product and order interface interactions
+- **Links:** [Live Demo](https://ehsanmoattari.github.io/modernshop-dashboard) · [Source Code](https://github.com/ehsanmoattari/modernshop-dashboard)
 
 ---
 
-## 📫 Let's Connect
+## What I'm Working Toward
 
-- 💼 [LinkedIn](https://linkedin.com/in/ehsan-moattari)
-- 🐙 [GitHub](https://github.com/ehsanmoattari)
-- 📧 [moattariehsan@gmail.com](mailto:moattariehsan@gmail.com)
-- 🌐 [Portfolio](https://ehsanmoattari.github.io/portfolio/)
+My long-term goal is to build and launch useful digital products, starting with the WordPress ecosystem and expanding into SaaS where it makes sense. I prefer learning by building, reviewing what works, and improving projects in small, deliberate steps.
 
----
+## Let's Connect
 
-> *"I don't just write code — I build solutions that make a difference."*
+- **LinkedIn:** [linkedin.com/in/ehsan-moattari](https://linkedin.com/in/ehsan-moattari)
+- **GitHub:** [github.com/ehsanmoattari](https://github.com/ehsanmoattari)
+- **Email:** [moattariehsan@gmail.com](mailto:moattariehsan@gmail.com)
+- **Portfolio:** [ehsanmoattari.github.io/portfolio](https://ehsanmoattari.github.io/portfolio/)
